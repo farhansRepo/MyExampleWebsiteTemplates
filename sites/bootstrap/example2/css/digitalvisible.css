@@ -1,0 +1,323 @@
+/*
+ * Digital Visible Web Design CSS script
+ * Author Digital Visible
+ * Copyright 2015
+ */
+ 
+/* .Process Animation Section Styles */
+
+.process .method{
+  background:#ccc;
+  text-align:center;
+  padding:10px;
+  margin-bottom:30px;
+  border-radius:5px;
+  opacity:0;
+}
+
+.process .method h3{
+  font-style:italic;
+}
+
+.process .method p{
+  margin:0;
+}
+
+.process .method h4{
+  background:#8FC6FF;
+  width:60px;
+  height:60px;
+  font-size:2em;
+  font-weight:bold;
+  border-radius:50%;
+  line-height:60px;
+  margin:0 auto;
+  position:relative;
+  top:30px;
+}
+
+/* Global Styles */
+
+html,
+body {
+    width:100%;
+    height: 100%;
+}
+
+body {
+	font-family: 'Cabin', Helvetica, sans-serif;
+    padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+h1,h2, .lobsterfont {
+    font-family: 'Lobster', Georgia, serif;
+}
+
+.cabinfont {
+    font-family: 'Cabin', Helvetica, sans-serif;
+}
+
+.logo-img-hover {
+    opacity:1;
+}
+
+.text-danger { 
+    color:#d40000;
+}
+
+.btn-danger {
+	background: rgba(0, 0, 0, 0.85);
+	border:1px solid #d40000;
+	color:gold;
+	text-shadow: 1px 1px black;
+}
+.btn-danger:hover {
+    background-color:#d40000;
+	border:1px dotted black;
+	text-shadow: 1px 1px black;
+}
+.fa {
+	
+}
+.whitehover:hover {
+    color:white;
+	text-shadow: 1px 1px black;
+}
+
+/* */
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+/* */
+.bluryback {
+    background: url('squairy_light.png');
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+.cityback {
+    background: url('bnwcityscape3.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.indextopfix {
+    padding: 5%;
+}
+.topfix {
+    margin-top: 1.75%;
+}
+
+.whiteback {
+    color:white;
+}
+.yellowback {
+    color:gold;
+}
+
+.centericon {
+	position:center;
+	text-align:center;
+}
+.mainheadingtop {
+    margin:2%;
+	position:center;
+	text-align:center;
+}
+
+.textgold {
+    color:gold;
+}
+.transbacktext {
+    border-radius:5px;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 3px 5px;
+}
+/* Navigation */
+
+nav {
+    font-size:1.5em;
+	color:red;
+	
+}
+.navitemborderl {
+    border-left: 1px solid lightgrey;
+}
+.navitemborderr {
+	border-right: 1px solid lightgrey;
+}
+/* Home Page Carousel */
+
+header.carousel {
+    height: 100%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #d40000;
+}
+.page-header {
+	text-align:center;
+}
+
+.bannertop {
+	margin:5%;
+	padding:7% 5%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.textshadowredblack {
+    text-shadow: 2px 2px #d40000, 3px 3px black;
+}
+
+.contentdiv {
+    padding:1% 5% 4% 5%;
+}
+
+/* index ad cards */
+.adcard {
+    min-height:60%;
+}
+
+.panel { 
+	text-align:center;
+}
+.panela {
+    box-shadow: 10px 10px 5px #d40000;
+}
+.panelb {
+    box-shadow: 10px 10px 5px #141414;
+}
+.panelc {
+    box-shadow: 10px 10px 5px gold;
+}
+.panel-default > .panel-heading {
+    background-color: white;
+	text-shadow: 1px 1px lightgrey;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* WCWD */
+
+.whatcanwe {
+    margin:5% 0;
+    text-shadow: 2px 2px #d40000, 3px 3px black;
+}
+.wcwdmargin {
+    margin:0;
+	padding: 0 5% 5% 5%;
+	text-align:center;
+}
+
+.fa-square {
+		background: -webkit-linear-gradient(white, black);
+    background-color:white;
+    border:2px solid #141414;
+	border-radius:5px;
+}
+
+/* CTA */
+
+.well {
+	border:2px solid #d40000;
+}
+
+.ctamargin {
+    margin-top:1%;
+	text-align:center;
+}
+
+.ctabtn {
+    border:1px solid #d40000;
+	padding:0;
+}
+
+/* Footer Styles */
+
+.featurecall {
+    min-height:100%;
+}
+
+footer {	
+	background-color:#141414;
+	color:lightgrey;
+	text-align: center;
+}
+
+.footcontent {
+    padding:5%;
+}
+
+.footstripe {
+    height: 1%;
+    background-color:#d40000;
+}
+
+.footstripeb {
+	height: 1%;
+    background-color:white;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
