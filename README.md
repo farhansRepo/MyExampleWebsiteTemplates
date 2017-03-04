@@ -2,6 +2,4 @@
 
 >>##https://farhansrepo.github.io/WebDev
 
->>>
-
-:spider:
+>>>:spider:
