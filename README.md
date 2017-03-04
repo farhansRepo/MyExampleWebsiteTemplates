@@ -1,3 +1,3 @@
 # MyWebsiteTemplates
 
-https://farhansrepo.github.io/MyExampleWebsiteTemplates/
+https://farhansrepo.github.io/WebDev
